@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+}
+
+/* スライド全体 */
+.slide {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+/* 2カラム */
+.two-column {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* 左：テキスト */
+.two-column .text {
+  flex: 1;
+}
+
+/* 右：Lottie */
+.two-column .lottie {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.two-column lottie-player {
+  width: 400px;
+  height: 400px;
+}
+
+.slide-1 {
+  background: #89a1cd;
+}
+
+.slide-2 {
+  background: #95c3cb;
+;
+}
+
+.slide-3 {
+  background: #8ac3f5;
+}
+
+.slide-4 {
+  background: #cdd4db;
+ } 
+
+ .two-column .media {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.two-column .media img {
+  max-width: 100%;
+  height: 70%;
+}
+
+.two-column .slide-image {
+  width: 100%;
+  max-width: 470px; /* ← 好きなサイズに調整 */
+  height: auto;
+}
+
+h1 {
+  font-size: 56px;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-size: 26px;
+   font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+
