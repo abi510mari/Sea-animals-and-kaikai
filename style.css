@@ -53,8 +53,12 @@ body {
  } 
 
 .slide-5 {
-  background: #4b4d50;
+  background: #c7c7c7;
  } 
+
+.slide-6 {
+  background: #252931;
+ }
 
  .two-column .media {
   flex: 1;
@@ -84,4 +88,16 @@ p {
    font-family: 'Zen Maru Gothic', sans-serif;
 }
 
+h2 {
+  font-size: 56px;
+  color: #ffffff;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-weight: 700;
+}
 
+p2 {
+  font-size: 26px;
+  color: #ffffff;
+
+   font-family: 'Zen Maru Gothic', sans-serif;
+}
